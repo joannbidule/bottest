@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "defaultConv"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "defaultConv": {
+      "name": "defaultConv",
+      "url": "https://proximity.gogowego.com/api/v1/integration/googleActions/T5YrBnCgon"
+    }
+  },
+  "locale": "undefined"
+}
